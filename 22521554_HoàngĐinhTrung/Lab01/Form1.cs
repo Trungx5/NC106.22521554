@@ -16,5 +16,11 @@ namespace Lab01
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Bai01 bai01 = new Bai01();
+            bai01.Show();
+        }
     }
 }
